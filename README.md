@@ -81,7 +81,7 @@ If you use IHRCD-Det in your research, please cite our work:
 @article{xiao2026ihrcd,
   title = {IHRCD-Det: High-resolution detection dataset for reinforced concrete surface defect of industrial architectural heritage},
   author = {Xinyi Xiao and Fanlei Meng},
-  journal = {Journal of Cultural Heritage},
+  journal = {Pending},
   year = {2026},
   doi = {Pending}
 }
