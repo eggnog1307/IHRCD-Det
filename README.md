@@ -4,6 +4,9 @@
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
 
 This repository contains the IHRCD-Det dataset, a specialized high-resolution dataset designed for the autonomous detection of reinforced concrete (RC) surface defects in industrial architectural heritage scenarios.
+
+Xinyi Xiao, Fanlei Meng
+School of Architecture and Urban Planning, Beijing University of Civil Engineering and Architecture
 ---
 
 ## 📌 Overview
@@ -13,12 +16,19 @@ Industrial architectural heritage structures (e.g., blast furnaces, silos, chimn
 * **Original Data:** 578 ultra-high-resolution images (4096×3072 pixels).
 * **Defect Categories:** 8 types (Crack, Spalling, Exposed reinforcement, Rust stain, Chemical corrosion, Hole, Repair mark, Anthropogenic mark).
 * **Sources:** Captured from major Chinese industrial heritage sites including Shougang, Wuhan Iron and Steel, etc.
----
+  ---
 
 ## 📸 Visual Samples
 ![Defect Samples](Fig.1.png)  
+*Figure: Detection results for RC structural defects in industrial architectural heritage.*
+![Defect Samples](Fig.2.png)  
 *Figure: Representative visual features of the 8 RC defect categories in IHRCD-Det.*
-
+![Defect Samples](Fig.3.png)  
+*Figure: (a) Figures and percentage distribution of objects in IHRCD-Det. (b) Average and median ratio of object boxes.*
+![Defect Samples](Fig.4.png)  
+*Figure: Results of real-world experimental.*
+![Defect Samples](Fig.5.png)  
+*Figure: Prediction results of IHRCD-Det dataset and other datasets in industrial heritage environments.*
 ---
 
 ## 📊 Dataset Statistics
@@ -47,4 +57,4 @@ We evaluated the dataset using 10 state-of-the-art models on an NVIDIA RTX 4090.
 ---
 
 ## 📥 Download
-Full Dataset: [Link to Zenodo/Baidu Netdisk]
+**Full Dataset (Baidu Netdisk):** [Click here to download](https://pan.baidu.com/s/1B3F619ThB4jMQF3poU7O5g?pwd=M224)
