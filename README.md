@@ -9,14 +9,14 @@ This repository contains the IHRCD-Det dataset, a specialized high-resolution da
 ## 📌 Overview
 Industrial architectural heritage structures (e.g., blast furnaces, silos, chimneys) are subject to extreme environments. **IHRCD-Det** provides a high-resolution solution for identifying complex defects that differ significantly from civilian buildings.
 
-* **Images:** 6,388 high-resolution slices ($1024 \times 1024$ pixels).
-* **Original Data:** 578 ultra-high-resolution images ($4096 \times 3072$).
+* **Images:** 6,388 high-resolution slices (1024×1024 pixels).
+* **Original Data:** 578 ultra-high-resolution images (4096×3072 pixels).
 * **Defect Categories:** 8 types (Crack, Spalling, Exposed reinforcement, Rust stain, Chemical corrosion, Hole, Repair mark, Anthropogenic mark).
 * **Sources:** Captured from major Chinese industrial heritage sites including Shougang, Wuhan Iron and Steel, etc.
 ---
 
 ## 📸 Visual Samples
-![Defect Samples](figures/fig3.png)  
+![Defect Samples](Fig.1.png)  
 *Figure: Representative visual features of the 8 RC defect categories in IHRCD-Det.*
 
 ---
