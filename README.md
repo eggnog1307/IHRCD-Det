@@ -3,7 +3,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
 
-**This repository contains the IHRCD-Det dataset, a specialized high-resolution dataset designed for the autonomous detection of reinforced concrete (RC) surface defects in industrial architectural heritage scenarios.**
+**This repository contains the IHRCD-Det dataset, a specialized high-resolution dataset designed for the object detection of reinforced concrete (RC) surface defects in industrial architectural heritage scenarios.**
 
 Xinyi Xiao<sup>1</sup>, Fanlei Meng<sup>1</sup><br>
 <sup>1</sup>School of Architecture and Urban Planning, Beijing University of Civil Engineering and Architecture, Beijing, 100044, China
@@ -11,11 +11,11 @@ Xinyi Xiao<sup>1</sup>, Fanlei Meng<sup>1</sup><br>
 ---
 
 ## 📌 Overview
-Industrial architectural heritage reinforced concrete structures (e.g., blast furnaces, silos, chimneys) are subject to extreme environments. **IHRCD-Det** provides a high-resolution solution for identifying complex defects that differ significantly from civilian buildings.
+Industrial architectural heritage RC structures (e.g., blast furnaces, silos, chimneys) are subject to extreme environments. **IHRCD-Det** provides a high-resolution solution for identifying complex defects that differ significantly from civilian buildings.
 
 * **Images:** 6,388 high-resolution slices (1024×1024 pixels).
 * **Original Data:** 578 ultra-high-resolution images (4096×3072 pixels).
-* **Defect Categories:** 8 types (Crack, Spalling, Exposed reinforcement, Rust stain, Chemical corrosion, Hole, Repair mark, Anthropogenic mark).
+* **Defect Categories:** 8 types <br>(Crack, Spalling, Exposed reinforcement, Rust stain, Chemical corrosion, Hole, Repair mark, Anthropogenic mark).
 * **Sources:** Captured from major Chinese industrial heritage sites including Shougang, Wuhan Iron and Steel, etc.
 ---
 
@@ -41,26 +41,47 @@ We evaluated the dataset using 10 state-of-the-art models on an NVIDIA RTX 4090.
 | **YOLOv12-n** | 63.5% | 56.8% | 59.3% | 36.3% | 14.0 |
 | **Faster R-CNN**| 65.1% | 41.9% | 55.4% | 40.2% | 20.3 |
 
-*Experimental results indicate that YOLO11-l is currently the best choice for industrial heritage monitoring tasks.*
+*Experimental results indicate that YOLO11-l is currently the best choice for industrial heritage Object detection tasks.*
 
 ---
+
 ## 📸 Visual Samples
 ![Defect Samples](Fig.1.png)  
 *Figure: Detection results for RC structural defects in industrial architectural heritage.*
 
+
 ![Defect Samples](Fig.2.png)  
 *Figure: Representative visual features of the 8 RC defect categories in IHRCD-Det.*
+
 
 ![Defect Samples](Fig.3.png)  
 *Figure: (a) Figures and percentage distribution of objects in IHRCD-Det. (b) Average and median ratio of object boxes.*
 
+
 ![Defect Samples](Fig.4.png)  
 *Figure: Results of real-world experimental.*
 
+
 ![Defect Samples](Fig.5.png)  
 *Figure: Prediction results of IHRCD-Det dataset and other datasets in industrial heritage environments.*
+
 
 ---
 
 ## 📥 Download
 **Full Dataset (Baidu Netdisk):** [Click here to download](https://pan.baidu.com/s/1B3F619ThB4jMQF3poU7O5g?pwd=M224)
+
+
+---
+## ✍️ Citation
+If you use IHRCD-Det in your research, please cite our work:
+
+
+```bibtex
+@article{xiao2026ihrcd,
+  title = {IHRCD-Det: High-resolution detection dataset for reinforced concrete surface defect of industrial architectural heritage},
+  author = {Xinyi Xiao and Fanlei Meng},
+  journal = {Journal of Cultural Heritage},
+  year = {2026},
+  doi = {Pending}
+}
