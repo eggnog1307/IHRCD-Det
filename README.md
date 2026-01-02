@@ -12,7 +12,7 @@ Industrial architectural heritage structures (e.g., blast furnaces, silos, chimn
 * **Images:** 6,388 high-resolution slices ($1024 \times 1024$ pixels).
 * **Original Data:** 578 ultra-high-resolution images ($4096 \times 3072$).
 * **Defect Categories:** 8 types (Crack, Spalling, Exposed reinforcement, Rust stain, Chemical corrosion, Hole, Repair mark, Anthropogenic mark).
-* **Sources:** Captured from major Chinese industrial heritage sites like Shougang and Wuhan Iron and Steel.
+* **Sources:** Captured from major Chinese industrial heritage sites including Shougang, Wuhan Iron and Steel, etc.
 ---
 
 ## 📸 Visual Samples
@@ -33,7 +33,7 @@ The dataset covers 6 types of structural components: **Beams, Slabs, Columns, Wa
 ---
 
 ## 🚀 Benchmark Results
-[cite_start]We evaluated the dataset using 10 state-of-the-art models on an NVIDIA RTX 4090[cite: 60].
+We evaluated the dataset using 10 state-of-the-art models on an NVIDIA RTX 4090.
 
 | Model | Precision | Recall | mAP@0.5 | mAP@0.5:0.95 | Latency (ms) |
 | :--- | :---: | :---: | :---: | :---: | :---: |
