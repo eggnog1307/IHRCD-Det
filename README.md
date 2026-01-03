@@ -17,11 +17,20 @@ Industrial architectural heritage RC structures (e.g., blast furnaces, silos, ch
 * **Original Data:** 578 ultra-high-resolution images (4096×3072 pixels).
 * **Defect Categories:** 8 types <br>(Crack, Spalling, Exposed reinforcement, Rust stain, Chemical corrosion, Hole, Repair mark, Anthropogenic mark).
 * **Sources:** Captured from major Chinese industrial heritage sites including Shougang, Wuhan Iron and Steel, etc.
+
+---
+## 📸 Visual Samples
+
+<p align="center">
+  <img src="Fig.2.png" alt="Defect Samples">
+  <br>
+  <em>Figure: Representative visual features of the 8 RC defect categories in IHRCD-Det.</em>
+</p>
+
 ---
 
-
 ## 📊 Dataset Statistics
-The dataset covers 6 types of structural components: **Beams, Slabs, Columns, Walls, Roofs/Trusses, and Equipment Foundations**.
+The dataset covers 6 types of structural components: <br>**Beams, Slabs, Columns, Walls, Roofs/Trusses, and Equipment Foundations**.
 
 | Damage Type | Defect Name | Key Characteristics |
 | :--- | :--- | :--- |
@@ -41,32 +50,21 @@ We evaluated the dataset using 10 state-of-the-art models on an NVIDIA RTX 4090.
 | **YOLOv12-n** | 63.5% | 56.8% | 59.3% | 36.3% | 14.0 |
 | **Faster R-CNN**| 65.1% | 41.9% | 55.4% | 40.2% | 20.3 |
 
-*Experimental results indicate that YOLO11-l is currently the best choice for industrial heritage Object detection tasks.*
+*Experimental results indicate that **YOLO11-l** is currently the best choice for industrial heritage Object detection tasks.*
 
 ---
-
-## 📸 Visual Samples
+## 📸 Prediction Results
 ![Defect Samples](Fig.1.png)  
-*Figure: Detection results for RC structural defects in industrial architectural heritage.*
-
-
-![Defect Samples](Fig.2.png)  
-*Figure: Representative visual features of the 8 RC defect categories in IHRCD-Det.*
-
-
-![Defect Samples](Fig.3.png)  
-*Figure: (a) Figures and percentage distribution of objects in IHRCD-Det. (b) Average and median ratio of object boxes.*
-
+<p align="center"><i>Figure: Detection results for RC structural defects in industrial architectural heritage</i></p>
 
 ![Defect Samples](Fig.4.png)  
-*Figure: Results of real-world experimental.*
-
+<p align="center"><i>Figure: Results of real-world experimental</i></p>
 
 ![Defect Samples](Fig.5.png)  
-*Figure: Prediction results of IHRCD-Det dataset and other datasets in industrial heritage environments.*
-
+<p align="center"><i>Figure: Prediction results of IHRCD-Det dataset and other datasets in industrial heritage environments</i></p>
 
 ---
+
 
 ## 📥 Download
 **Full Dataset (Baidu Netdisk):** [Click here to download](https://pan.baidu.com/s/1B3F619ThB4jMQF3poU7O5g?pwd=M224)
@@ -85,3 +83,4 @@ If you use IHRCD-Det in your research, please cite our work:
   year = {2026},
   doi = {Pending}
 }
+```
