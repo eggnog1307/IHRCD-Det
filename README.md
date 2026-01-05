@@ -3,7 +3,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/release/python-3110/)
 
-**This repository contains the IHRCD-Det dataset, a specialized high-resolution dataset designed for the object detection of reinforced concrete (RC) surface defects in industrial architectural heritage scenarios.**
+**This repository contains the IHRCD-Det dataset, a high-resolution dataset designed for the object detection of reinforced concrete (RC) surface defects in industrial architectural heritage scenarios.**
 
 Xinyi Xiao<sup>1</sup>, Fanlei Meng<sup>1</sup><br>
 <sup>1</sup>School of Architecture and Urban Planning, Beijing University of Civil Engineering and Architecture, Beijing, 100044, China
