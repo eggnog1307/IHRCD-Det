@@ -22,7 +22,7 @@ Industrial architectural heritage RC structures (e.g., blast furnaces, silos, ch
 ## 📸 Visual Samples
 
 <p align="center">
-  <img src="Fig.2.png" alt="Defect Samples">
+  <img src="Fig.2.jpg" alt="Defect Samples">
   <br>
   <em>Figure: Representative visual features of the 8 RC defect categories in IHRCD-Det.</em>
 </p>
